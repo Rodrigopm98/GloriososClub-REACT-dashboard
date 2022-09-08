@@ -1,12 +1,17 @@
 import React from 'react';
-/* import logo from '../logo.svg'; */
-import '../App.css';
-import Productos from './Productos';
+import ContentWrapper from './ContentWrapper';
+
+import SideBar from './SideBar';
+
 
 function App() {
   return (
     <React.Fragment>
-      <Productos/>
+      <div id='wrapper'>
+        <SideBar />
+        
+        <ContentWrapper />
+      </div>
     </React.Fragment>
   );
 }
