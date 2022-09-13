@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 /* import imagenFondo from '../assets/images/mandalorian.jpg'; */
 import GenresInDb from './GenresInDb';
 import ContentRowMovies from './ContentRowMovies';
-const images = require.context('C:/Users/Peralta/OneDrive/Escritorio/DHC13/grupo 8 Gloriosos club/Grupo_8_GloriososClub/public/images', true)
+//en la ruta a imagenes debera poner la ruta local donde tenga guardo sus imagenes
+const images = require.context('.../grupo 8 Gloriosos club/Grupo_8_GloriososClub/public/images', true)
 
 class ContentRowTop extends Component{
     constructor(props) {
